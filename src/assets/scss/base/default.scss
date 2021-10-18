@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+
+
+// General
+body {
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    position: relative;
+}
+
+h2{
+    position: relative;
+}
+
+h3{
+    position: relative;
+}
+
+/*Scrollbar*/
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+background: rgba(0, 0, 0, 0.2);
+border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+background: rgba(0, 0, 0, 0.4);
+}

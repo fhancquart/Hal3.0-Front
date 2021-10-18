@@ -1,0 +1,5 @@
+@mixin switchMode($base) {
+    #{$base}{
+        display: block;
+    }
+}
